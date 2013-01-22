@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="default-d905bb"
+		revision="0.1-SNAPSHOT"
+		extra-sbtVersion="0.12"
+		extra-scalaVersion="2.9.2"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
+		date="20130121200920"/>
+	<dependencies>
+		<module organisation="com.julianpeeters" name="sbt-plugin-example">
+			<revision name="0.1.1-SNAPSHOT" status="integration" pubdate="20130121200856" resolver="local" artresolver="local" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="true" default="false" conf="default(compile), compile" position="1">
+				<metadata-artifact status="no" details="" size="1921" time="0" location="/home/julianpeeters/.ivy2/cache/scala_2.9.2/sbt_0.12/com.julianpeeters/sbt-plugin-example/ivy-0.1.1-SNAPSHOT.xml" searched="true" original-local-location="/home/julianpeeters/.ivy2/local/com.julianpeeters/sbt-plugin-example/scala_2.9.2/sbt_0.12/0.1.1-SNAPSHOT/ivys/ivy.xml" origin-is-local="true" origin-location="/home/julianpeeters/.ivy2/local/com.julianpeeters/sbt-plugin-example/scala_2.9.2/sbt_0.12/0.1.1-SNAPSHOT/ivys/ivy.xml"/>
+				<caller organisation="default" name="default-d905bb" conf="compile, runtime" rev="0.1.1-SNAPSHOT" rev-constraint-default="0.1.1-SNAPSHOT" rev-constraint-dynamic="0.1.1-SNAPSHOT" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2"/>
+				<artifacts>
+					<artifact name="sbt-plugin-example" type="jar" ext="jar" status="no" details="" size="4618" time="0" location="/home/julianpeeters/.ivy2/local/com.julianpeeters/sbt-plugin-example/scala_2.9.2/sbt_0.12/0.1.1-SNAPSHOT/jars/sbt-plugin-example.jar">
+						<origin-location is-local="true" location="/home/julianpeeters/.ivy2/local/com.julianpeeters/sbt-plugin-example/scala_2.9.2/sbt_0.12/0.1.1-SNAPSHOT/jars/sbt-plugin-example.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="default" name="default-8a1a17">
+			<revision name="0.0" status="integration" pubdate="20130121200919" resolver="inter-project" artresolver="inter-project" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="default" name="default-d905bb" conf="compile, runtime" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

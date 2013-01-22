@@ -1,0 +1,35 @@
+myCommand
+reload
+myCommand
+reload
+myCommand
+hello
+exit
+hello
+tasks
+tasks -V
+exit
+hello
+hello:hello
+tasks
+tasks -V
+reload
+hello
+tasks -V
+q
+exit
+hello
+exit
+tasks
+tasks -V
+exxi
+exit
+new-task
+exit
+run
+test
+new-task
+relaod
+reload
+new-task
+exit
